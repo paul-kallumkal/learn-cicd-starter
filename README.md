@@ -1,6 +1,6 @@
 ## Local Development
 
-Make sure you're on Go version 1.22+.
+[x] Make sure you're on Go version 1.22+.
 
 Create a `.env` file in the root of the project with the following contents:
 
