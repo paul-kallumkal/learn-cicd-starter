@@ -28,5 +28,3 @@ jobs:
 
     - name: 'build'
       run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/pauljk-prod2/notely-ar-repo/notely:latest .'
-
-    
