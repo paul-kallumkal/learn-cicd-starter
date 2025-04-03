@@ -25,6 +25,9 @@ jobs:
 
     - name: 'Set up Cloud SDK'
       uses: 'google-github-actions/setup-gcloud@v2'
+    
+    - name: "Build"
+      run : './scripts/buildprod.sh'
 
-    - name: 'build'
+    - name: 'Submit build'
       run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/pauljk-prod2/notely-ar-repo/notely:latest .'
